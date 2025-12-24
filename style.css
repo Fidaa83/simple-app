@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 10px;
+  width: 260px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 14px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #2d89ef;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+ul {
+  margin-top: 20px;
+  padding: 0;
+}
+
+li {
+  list-style: none;              /* يشيل النقاط */
+  background: white;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+
+  display: flex;                 /* يرتّب العناصر جنب بعض */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task-text.done {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.delete-btn {
+  background: #e74c3c;
+}
