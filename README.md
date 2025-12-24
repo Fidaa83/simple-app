@@ -1,17 +1,20 @@
-# Fidaa To-Do App
+# Fidaa To-Do App ✅
 
-A simple To-Do application built using HTML, CSS, and JavaScript.
+A simple To-Do application built with **HTML, CSS, and JavaScript**.  
+Tasks are saved in **Local Storage**, so they stay after refresh.
 
 ## Features
 - Add tasks
 - Mark tasks as done
 - Delete tasks
-- Save tasks using localStorage
+- Clear all done tasks
+- Persistent storage with Local Storage
 
-## Technologies
+## Tech
 - HTML
 - CSS
-- JavaScript
+- JavaScript (Vanilla)
 
 ## How to run
-Open the project using Live Server or open `index.html` in a browser.
+Option 1: Open `index.html` in your browser.  
+Option 2 (recommended): Use **Live Server** in VS Code.
